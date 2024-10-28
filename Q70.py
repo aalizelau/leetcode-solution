@@ -5,7 +5,7 @@ def climbStairs(n):
     elif n == 2:
         return 2
         
-		# a = ways at (n-2), b = ways at (n-1)
+	# a = ways at (n-2), b = ways at (n-1)
     a, b = 2, 1
 
     for _ in range(n - 2):
